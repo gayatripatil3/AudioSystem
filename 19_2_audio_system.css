@@ -1,0 +1,117 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.outer_container{
+    display: flex;
+    justify-content: center;
+    width:100%;
+    
+    border: 1px solid black;
+}
+.heading h1{
+    color: blueviolet;
+    text-shadow: 1px 1px black;
+}
+.inner_container{
+width:50%;
+background-color: rgb(211, 171, 250);
+border:1px solid blue;
+}
+.components{
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+    
+}
+.inner_item_div{
+    text-align: center;
+    background-color: beige;
+    border: 2px solid yellow;
+    border-radius: 10px;
+    width:50%;
+
+}
+.list{
+    display: flex;
+    width:100%;
+    /* border: 1px solid red; */
+    justify-content: center;
+}
+.items_comp{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    /* border: 1px solid rgb(223, 37, 37); */
+}
+#ul_id p{
+    font-weight:bold;
+    padding:0px 20px;
+    border: 2px solid blue;
+    border-radius: 10px;
+    background-color: aqua;
+}
+#ul_id p:hover{
+cursor: pointer;
+background-color: rgb(251, 121, 234);
+}
+.buttons_div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid black; */
+    width:80%;
+}
+.buttons_div input{
+    padding:5px 10px;
+    font-weight: bold;
+background-color: rgb(253, 186, 255);
+border-radius: 10px;
+}
+.buttons_div input:hover{
+    cursor: pointer;
+    background-color: rgb(5, 164, 66);
+    color:white;
+    
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+/*.songlist ul li:hover{
+    cursor: pointer;
+}
+ .songlist ul li{
+    
+} */
+/* .container1{
+    display: flex;
+    justify-content: center;
+    border: 2px solid rgb(228, 11, 11);
+}
+.container{
+    display: flex;
+    flex-direction: column;
+     justify-content: center;
+    width: 50%;
+    border: 1px solid black;
+}
+.class1{
+    display: flex;
+    justify-content: center;
+    border: 1px solid rgb(79, 9, 228); 
+}
+#songlist{ 
+    flex-direction: column;
+    justify-content: center;
+
+}
+audio{
+    width:60%;
+} */

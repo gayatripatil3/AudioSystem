@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="19_2_audio_system.css">
+    <title>Document</title>
+</head>
+<body>
+<div class="outer_container">
+    <div class="inner_container">
+    <div class="components">
+        <div class="heading">
+            <h1>MY MEDIA PLAYER</h1>
+        </div>
+    </div>
+    <div class="components" id="comp_id2">
+        <div class="inner_item_div">
+        <div class="items_comp">
+            <h2>Your Wishlist!!!</h2>
+        </div>
+        <div class="items_comp">
+            <div class="list">
+                <div id="ul_id"></div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="components">
+        <div class="buttons_div">
+            <div class="prev_div"><input type="button" value="Prev" onclick="previous_song()"></div>
+        <div class="audio_div">
+            <audio id="audio" controls></audio>
+        </div>
+        <div class="next_div"><input type="button" value="Next" onclick="next_song()"></div>
+    </div>
+    </div>
+</div>
+</div>
+<p id="demo"></p>
+    <script src="19_3_audio_system.js"></script>
+</body>
+
+</html>
